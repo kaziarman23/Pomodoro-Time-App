@@ -1,19 +1,19 @@
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
-    padding:0px;
-    margin:0px;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 22px;
 }
 
-body{
+body {
     background-color: antiquewhite;
 }
 
-h1{
+h1 {
     text-align: center;
     color: black;
     font-size: 2.5rem;
@@ -21,7 +21,39 @@ h1{
     margin-bottom: 1rem;
 }
 
-.container{
+.time-wrapper {
+    width: 300px;
+    height: 5rem;
+    color: black;
+    font-size: 1rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.time-wrapper button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: burlywood;
+    color: black;
+}
+
+.small:hover {
+    background-color: #d6c4ae;
+}
+
+.middle:hover {
+    background-color: #d6c4ae;
+}
+
+.larg:hover {
+    background-color: #d6c4ae;
+}
+
+.container {
     width: 80%;
     max-width: 300px;
     height: 250px;
@@ -34,7 +66,7 @@ h1{
     padding: 10px;
 }
 
-button{
+.button-wrapper button {
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -43,26 +75,26 @@ button{
     cursor: pointer;
 }
 
-button:nth-child(1):hover{
-    background-color: #34b034;
-}
-
-button:nth-child(2):hover{
-    background-color: #d8a23e;
-}
-
-button:nth-child(3):hover{
-    background-color: #d65757;
-}
-
-.Start{
+.Start {
     background-color: green;
 }
 
-.Stop{
+.Start:hover {
+    background-color: #34b034;
+}
+
+.Stop {
     background-color: orange;
 }
 
-.Reset{
+.Stop:hover {
+    background-color: #d8a23e;
+}
+
+.Reset {
     background-color: brown;
+}
+
+.Reset:hover {
+    background-color: #d65757;
 }
