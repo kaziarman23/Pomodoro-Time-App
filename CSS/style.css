@@ -16,10 +16,14 @@ body{
 h1{
     text-align: center;
     color: black;
-    font-size: 1rem;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .container{
+    width: 300px;
+    height: 250px;
     border: 1px solid black;
     margin: 0 auto;
     display: flex;
@@ -29,3 +33,27 @@ h1{
     padding: 10px;
 }
 
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.6;
+}
+
+.Start{
+    background-color: green;
+}
+
+.Stop{
+    background-color: orange;
+}
+
+.Reset{
+    background-color: brown;
+}
