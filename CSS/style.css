@@ -22,7 +22,8 @@ h1{
 }
 
 .container{
-    width: 300px;
+    width: 80%;
+    max-width: 300px;
     height: 250px;
     border: 1px solid black;
     margin: 0 auto;
@@ -42,8 +43,16 @@ button{
     cursor: pointer;
 }
 
-button:hover{
-    opacity: 0.6;
+button:nth-child(1):hover{
+    background-color: #34b034;
+}
+
+button:nth-child(2):hover{
+    background-color: #d8a23e;
+}
+
+button:nth-child(3):hover{
+    background-color: #d65757;
 }
 
 .Start{
